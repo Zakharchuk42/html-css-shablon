@@ -7,8 +7,6 @@ let popupModal = document.querySelector(".popup");
 let closeModal = document.querySelector(".popup-close");
 let menuSubList = document.querySelector(".mobile-submenu__list");
 let dropMenuMobile = document.querySelector(".drop-menu-mobile");
-console.log(dropMenuMobile);
-console.log(menuSubList);
 
 dropMenuMobile.onclick = function () {
     menuSubList.classList.toggle("active");
